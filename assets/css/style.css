@@ -987,16 +987,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #18d26e;
 }
 
-.link-details:hover {
-  background: none;
-}
-
 #portfolio .portfolio-item figure .link-preview:hover i,  {
   color: #fff;
-}
-
-.link-details:hover {
-  background: none;
 }
 
 #portfolio .portfolio-item figure .link-preview {
