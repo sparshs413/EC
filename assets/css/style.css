@@ -22,6 +22,21 @@ p {
   padding: 0;
   margin: 0 0 30px 0;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 3px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
@@ -123,8 +138,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 72px;
   transition: all 0.5s;
 }
-
-
 
 #header #logo {
   float: left;
@@ -983,11 +996,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #333;
 }
 
-#portfolio .portfolio-item figure .link-preview:hover,  {
-  background: #18d26e;
+#portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
+  background: #c2f88f;
 }
 
-#portfolio .portfolio-item figure .link-preview:hover i,  {
+#portfolio .portfolio-item figure .link-preview:hover i, #portfolio .portfolio-item figure .link-details:hover i {
   color: #fff;
 }
 
@@ -1167,9 +1180,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member {
   text-align: center;
   margin-bottom: 20px;
-  /* background: #000; */
+  background: #000;
   position: relative;
-  /* padding: 300px; */
 }
 
 #team .member .member-info {
@@ -1542,7 +1554,4 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
-/* #rohit{
-  margin-top: 400px;
-  margin-left:-200px ;
-} */
+
